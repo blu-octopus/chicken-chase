@@ -7671,9 +7671,9 @@ GameObject:
   - component: {fileID: 555192606}
   - component: {fileID: 555192605}
   - component: {fileID: 555192604}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13862,6 +13862,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 138902, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 138902, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_TagString
+      value: capsule
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -19078,14 +19086,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472436123}
-  m_LocalRotation: {x: 0.2164396, y: 0, z: 0, w: 0.97629607}
-  m_LocalPosition: {x: 0, y: 0.6, z: -0.2}
+  m_LocalRotation: {x: 0.4629575, y: -0.008120566, z: -0.013044564, w: 0.8862473}
+  m_LocalPosition: {x: 0.019168278, y: 1.3750001, z: -0.31751055}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1849689295}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 25, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 55.123, y: -2.653, z: -3.072}
 --- !u!81 &1472436125
 AudioListener:
   m_ObjectHideFlags: 0
@@ -19119,13 +19127,13 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 100
-  field of view: 60
+  field of view: 97
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -23981,8 +23989,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1.441534}
-  m_Center: {x: 0, y: 0, z: 0.24159883}
+  m_Size: {x: 0.4303583, y: 1, z: 0.7343948}
+  m_Center: {x: 0.039082885, y: 0, z: -0.1119709}
 --- !u!1001 &1862587223
 PrefabInstance:
   m_ObjectHideFlags: 0
