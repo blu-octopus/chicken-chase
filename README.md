@@ -18,15 +18,16 @@ We created a NPC Chase Scene of chicken chase. There is a fox that will chase af
 
 | Requirements| What we did |
 |  ---        |     ----    |
-| Controllable Character | The chicken is our controllable character, and player views from a third-person perspective following the chicken. |
-| NPC that notices player  | Fox NPC that starts chasing after player when player comes within range.       | 
-| Interaction with NPC 1  | When the player (big chicken) goes near the little chicks, the little chicks will start following the player.        | 
-| Interaction with NPC 2| When the fox is caught up to player (fox collides with player), game over scene appears.|
-| Interaction with NPC 3 | Gun system where player can point and shoot particles at fox.|
+| Controllable Character (5pts)| The chicken is our controllable character.  |
+| Character-follow camera (5pts) | Player views from a third-person perspective following the chicken. |
+| NPC that notices player (20pts) | Fox NPC that starts chasing after player when player comes within range.       | 
+| Interaction with NPC 1 (10pts) | When the player (big chicken) goes near the little chicks, the little chicks will start following the player.        | 
+| Interaction with NPC 2 (10 pts)| When the fox is caught up to player (fox collides with player), game over scene appears.|
+| Particle system (10 pts)| Gun system where player can point and shoot particles at fox.|
 |Obstacles in the path of player| A farm nature scene containing a variations of terrain, hills, farmland, river, bridge, house, rocks, trees.|
 
 ## Assets Used
-
+At least 5 unique objects of appropriate chosen topic (20pts)
 | Asset | Where it came from |
 | ---- | ---- |
 | Fox | [Pxltiger](https://assetstore.unity.com/packages/3d/characters/animals/toon-fox-183005) |
