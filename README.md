@@ -19,7 +19,7 @@ We created a NPC Chase Scene of chicken chase. There is a fox that will chase af
 | Requirements| What we did |
 |  ---        |     ----    |
 | Controllable Character | The chicken is our controllable character, and player views from a third-person perspective following the chicken. |
-| NPC that notices player      | Fox NPC that when player comes within range, starts chasing after player.       | 
+| NPC that notices player  | Fox NPC that starts chasing after player when player comes within range.       | 
 | Interaction with NPC 1  | When the player (big chicken) goes near the little chicks, the little chicks will start following the player.        | 
 | Interaction with NPC 2| When the fox is caught up to player (fox collides with player), game over scene appears.|
 | Interaction with NPC 3 | Gun system where player can point and shoot particles at fox|
