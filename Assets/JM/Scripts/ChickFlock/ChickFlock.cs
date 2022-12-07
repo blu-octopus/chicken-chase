@@ -92,8 +92,40 @@ public class ChickFlock : MonoBehaviour
 
         // Rename target for distinction and add to target list
         newTarget.name = "ChickTarget_" + chickTargets.Count;
+
+        //ResolveSpacing( newTarget );
+
         chickTargets.Add(newTarget);
 
         return newTarget;
+    }
+
+    private void ResolveSpacing(GameObject newObj)
+    {
+        foreach (GameObject go in chickTargets)
+        {
+            // Move to the next iteration if comparing against itself
+            /*if (goo == go)
+                continue;*/
+
+            // Get the distance between the two targets
+            float dist = Vector3.Distance(
+                go.transform.position,
+                newObj.transform.position
+            );
+
+            // If the distance between two targets is less than
+            // the required spacing, move this target away from
+            // the compared target
+            if (dist < updateSpacing)
+            {
+                Vector3 diff =
+                    newObj.transform.position -
+                    go.transform.position;
+
+                // Space out targets over time to optimize spacing
+                newObj.transform.position += Time.deltaTime * diff;
+            }
+        }
     }
 }

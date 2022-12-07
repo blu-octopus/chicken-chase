@@ -40,7 +40,7 @@ public class ChickBehavior : ChaseBehavior
             return false;
         }
 
-        float animSpeed;
+        float animSpeed = 0;
 
         // The chick should try to get as close to the player as
         // allowed by the stopDistance by calling ChaseBehavior's
@@ -59,10 +59,17 @@ public class ChickBehavior : ChaseBehavior
 
         // If the chick is within stopDistance of the player, stop
         // running animation
-        else
+        else if (Mathf.Abs(distance - stopDistance) < 0.1)
         {
             Vector3 moveDir = targetTrans.position - thisTransform.position;
             moveDir.Normalize();
+
+            /*
+            animSpeed = Moving(
+                ctrl,
+                moveDir,
+                false
+            );*/
 
             animSpeed = Moving(
                 ctrl,

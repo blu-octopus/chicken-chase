@@ -55,7 +55,7 @@ public class ChaseBehavior : ScriptableObject
         bool isAccel
     )
     {
-        if ( isAccel )
+        /*if ( isAccel )
         {
             moveSpeed = moveSpeed < maxSpeed ?
                 moveSpeed + (acceleration * Time.deltaTime) :
@@ -67,10 +67,16 @@ public class ChaseBehavior : ScriptableObject
             moveSpeed = moveSpeed > 0 ?
                 moveSpeed + (deceleration * Time.deltaTime) :
                 0;
-        }
+        }*/
+
+        moveSpeed = isAccel ? 
+            moveSpeed = maxSpeed :
+            moveSpeed + (deceleration * Time.deltaTime);
+
+        //Vector3 moveCalc = moveSpeed * Time.deltaTime * moveDir;
 
         Vector3 moveCalc = moveSpeed * Time.deltaTime * moveDir;
-        
+
         if (!ctrl.isGrounded)
         {
             moveCalc += Gravity * Time.deltaTime * Vector3.up;
@@ -78,7 +84,8 @@ public class ChaseBehavior : ScriptableObject
 
         ctrl.Move(moveCalc);
 
-        return moveSpeed / maxSpeed;
+        //return moveSpeed / maxSpeed;
+        return 1f;
     }
 
     /*public void Moving(
