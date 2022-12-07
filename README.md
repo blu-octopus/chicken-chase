@@ -22,7 +22,7 @@ We created a NPC Chase Scene of chicken chase. There is a fox that will chase af
 | NPC that notices player  | Fox NPC that starts chasing after player when player comes within range.       | 
 | Interaction with NPC 1  | When the player (big chicken) goes near the little chicks, the little chicks will start following the player.        | 
 | Interaction with NPC 2| When the fox is caught up to player (fox collides with player), game over scene appears.|
-| Interaction with NPC 3 | Gun system where player can point and shoot particles at fox|
+| Interaction with NPC 3 | Gun system where player can point and shoot particles at fox.|
 |Obstacles in the path of player| A farm nature scene containing a variations of terrain, hills, farmland, river, bridge, house, rocks, trees.|
 
 ## Assets Used
