@@ -28538,6 +28538,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1221615140836155544, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6f0ca0200fb97f74287af10a31d5e59a, type: 2}
     - target: {fileID: 1665004002198891472, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -28595,6 +28599,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 161821701}
     - target: {fileID: 4728385803505520646, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4728385803505520646, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
       propertyPath: groundMask.m_Bits
       value: 1537
       objectReference: {fileID: 0}
@@ -28604,19 +28612,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4728385803505520649, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.19
+      value: -17.41
       objectReference: {fileID: 0}
     - target: {fileID: 4728385803505520649, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.01
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4728385803505520649, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 17.94
+      value: -1.84
       objectReference: {fileID: 0}
     - target: {fileID: 4728385803505520649, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.64278764
+      value: 0.91032284
       objectReference: {fileID: 0}
     - target: {fileID: 4728385803505520649, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
       propertyPath: m_LocalRotation.x
@@ -28624,7 +28632,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4728385803505520649, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.76604444
+      value: -0.41389897
       objectReference: {fileID: 0}
     - target: {fileID: 4728385803505520649, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
       propertyPath: m_LocalRotation.z
@@ -28636,7 +28644,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4728385803505520649, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 100
+      value: -48.9
       objectReference: {fileID: 0}
     - target: {fileID: 4728385803505520649, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -28652,6 +28660,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4728385803505520651, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4728385805100752132, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4728385805228926729, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
@@ -28665,6 +28677,14 @@ PrefabInstance:
     - target: {fileID: 5027575692388353651, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5049697001214245602, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5049697001214245602, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 5221847946508007068, guid: 7259a6701cec250429139e7d0618d0f3, type: 3}
       propertyPath: m_Layer
