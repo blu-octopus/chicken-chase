@@ -28,33 +28,23 @@ public class FoxAnimationController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (IsRunning)
+        if (isStunned)
         {
-            /*if (isStunned)
-            {
-                if (stunTimer > 0)
-                {
-                    stunTimer -= Time.deltaTime;
-                    anim.SetBool("isStunned", true);
-                }
-                else
-                {
-                    isStunned = false;
-                    stunTimer = 3f;
-                    anim.SetBool("isStunned", false);
-                }
-            }
-            else
-            {
-                //anim.SetBool("isStunned", false);
-            }*/
-            anim.SetBool(runInvoker, true);
+            anim.SetBool("isStunned", true);
         }
         else
         {
-            
-            anim.SetBool(runInvoker, false);
+            anim.SetBool("isStunned", false);
+            if (IsRunning)
+            {
+                anim.SetBool(runInvoker, true);
+            }
+            else
+            {
+                anim.SetBool(runInvoker, false);
+            }
         }
+        
     }
 
     

@@ -69,7 +69,7 @@ public class FoxMovement : MonoBehaviour
             }
             else
             {
-                _fac.isStunned = RunStunTimer();
+                RunStunTimer();
             }
         }
         else
@@ -79,19 +79,18 @@ public class FoxMovement : MonoBehaviour
 
     }
 
-    public bool RunStunTimer()
+    public void RunStunTimer()
     {
         if (stunTimer > 0)
         {
             stunTimer -= Time.deltaTime;
-            return true;
+            _fac.isStunned = true;
         }
         else
         {
             stunTimer = 3f;
             isStunned = false;
             _fac.isStunned = false;
-            return false;
         }
     }
 
