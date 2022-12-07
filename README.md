@@ -40,4 +40,7 @@ We created a NPC Chase Scene of chicken chase. There is a fox that will chase af
 |Rope Bridge | [Blue Polygon](https://assetstore.unity.com/packages/3d/environments/rope-bridge-3d-222563) |
 | House | [Maxime Brunoni](https://assetstore.unity.com/packages/3d/props/stylized-country-house-205553)|
 | Sky Box | [Eclypso](/sky/skybox-add-on-136594) |
+| BGM  | [GWriterStudiotrack 7](https://assetstore.unity.com/packages/audio/music/8bit-music-062022-225623) |
+| bird noises | [no9 Game Sounds](https://assetstore.unity.com/packages/audio/sound-fx/animals/sparrow-sounds-158174) |
+| water noise | [Gregor Quendel](https://assetstore.unity.com/packages/audio/ambient/nature/free-water-stream-sounds-226371) |
 
