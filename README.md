@@ -43,4 +43,5 @@ We created a NPC Chase Scene of chicken chase. There is a fox that will chase af
 | BGM  | [GWriterStudiotrack 7](https://assetstore.unity.com/packages/audio/music/8bit-music-062022-225623) |
 | bird noises | [no9 Game Sounds](https://assetstore.unity.com/packages/audio/sound-fx/animals/sparrow-sounds-158174) |
 | water noise | [Gregor Quendel](https://assetstore.unity.com/packages/audio/ambient/nature/free-water-stream-sounds-226371) |
+| Fade Transition | [negleft](https://assetstore.unity.com/packages/tools/particles-effects/simple-fade-scene-transition-system-81753) |
 
