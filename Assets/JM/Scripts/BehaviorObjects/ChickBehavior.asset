@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stopDistance: 1.5
   startFollowDistance: 3
-  moveSpeed: 4
+  moveSpeed: 0
   maxSpeed: 4
   acceleration: 8
-  deceleration: -16
+  deceleration: -20
   rotationSpeed: 8
   FilePath: Assets/Scripts/BehaviorScripts/ChickBehavior

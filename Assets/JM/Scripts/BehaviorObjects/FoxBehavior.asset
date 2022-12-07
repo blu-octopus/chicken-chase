@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FoxBehavior
   m_EditorClassIdentifier: 
   stopDistance: 1.5
-  startFollowDistance: 8
+  startFollowDistance: 25
   moveSpeed: 2.5
   maxSpeed: 2.5
   acceleration: 2.5
