@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/farmland(main here)/Scenes/LowPolyFarmLite_Demo.unity
+    guid: 02b22eabe90848144a0d8977d339b3ee
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: b90fdd9f7157f3646b092a011c262dca
   m_configObjects: {}
