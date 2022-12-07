@@ -13,7 +13,8 @@ public class WinGame : MonoBehaviour
             scoreTracker.score == scoreTracker.maxScore
         )
         {
-            SceneManager.LoadScene("WinScreen", LoadSceneMode.Single);
+            Initiate.Fade("WinScreen", Color.white, 2.0f);
+            //SceneManager.LoadScene("WinScreen", LoadSceneMode.Single);
         }
     }
 }
