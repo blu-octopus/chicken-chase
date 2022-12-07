@@ -6,8 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class Restart : MonoBehaviour
 {
-    public void RestartGame()
+    void Update()
     {
-        SceneManager.LoadScene("LowPolyFarmLite_Demo"); // loads first scene
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene("LowPolyFarmLite_Demo", LoadSceneMode.Single); // loads first scene
+        }
     }
 }

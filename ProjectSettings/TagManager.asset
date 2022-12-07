@@ -6,6 +6,8 @@ TagManager:
   tags:
   - capsule
   - Enemy
+  - Chick
+  - Fox
   layers:
   - Default
   - TransparentFX

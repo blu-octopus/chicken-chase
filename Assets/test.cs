@@ -9,7 +9,7 @@ public class test : MonoBehaviour
     {
         if (hit.gameObject.tag == "Fox")
         {
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
         }
     }
 }
