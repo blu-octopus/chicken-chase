@@ -53,11 +53,11 @@ public class ChickFlock : MonoBehaviour
                 if (dist < updateSpacing)
                 {
                     Vector3 diff =
-                        go.transform.position -
-                        goo.transform.position;
+                        goo.transform.position -
+                        go.transform.position;
 
                     // Space out targets over time to optimize spacing
-                    go.transform.position += Time.deltaTime * diff;
+                    goo.transform.position += Time.deltaTime * diff;
                 }
             }
         }
