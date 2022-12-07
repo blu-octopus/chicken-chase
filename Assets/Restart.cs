@@ -2,10 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Restart : MonoBehaviour
 {
     [SerializeField] GameObject button;
+
+    [SerializeField] TextMeshProUGUI text;
+
     /*void Update()
     {
         if(Input.GetKeyDown(KeyCode.R))
@@ -22,7 +26,9 @@ public class Restart : MonoBehaviour
 
     public void RestartGame()
     {
-        //button.SetActive(false);
+        button.SetActive(false);
+
+        text.SetText("Loading...");
 
         Initiate.Fade("LowPolyFarmLite_Demo", Color.white, 2.0f);
     }

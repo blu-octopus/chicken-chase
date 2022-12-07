@@ -9,7 +9,7 @@ public class test1 : MonoBehaviour
     {
         if (hit.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
+            Initiate.Fade("GameOver", Color.black, 2.0f);
         }
     }
 }
