@@ -3,14 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 public class Restart : MonoBehaviour
 {
-    void Update()
+    [SerializeField] GameObject button;
+    /*void Update()
     {
         if(Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene("LowPolyFarmLite_Demo", LoadSceneMode.Single); // loads first scene
         }
+    }*/
+
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
+    public void RestartGame()
+    {
+        //button.SetActive(false);
+
+        Initiate.Fade("LowPolyFarmLite_Demo", Color.white, 2.0f);
     }
 }

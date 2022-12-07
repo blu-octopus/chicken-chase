@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
 
 public class RestartMain : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI[] UIelements;
+    [SerializeField] TextMeshProUGUI[] elements;
     [SerializeField] GameObject button;
 
     private void Start()
@@ -17,7 +16,7 @@ public class RestartMain : MonoBehaviour
 
     public void RestartGame()
     {
-        foreach (var element in UIelements)
+        foreach (var element in elements)
         {
             element.alpha = 0;
         }
