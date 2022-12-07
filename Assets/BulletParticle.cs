@@ -20,6 +20,12 @@ public class BulletParticle : MonoBehaviour
     {
         int events = particleSystem.GetCollisionEvents(other, colEvents);
 
+        if (other.transform.CompareTag("Fox"))
+        {
+            FoxMovement fm = other.GetComponent<FoxMovement>();
+            fm.isStunned = true;
+        }
+
         Debug.Log("Hit");
 
         //for (int i = 0; i < events; i++)

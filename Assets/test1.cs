@@ -11,5 +11,6 @@ public class test1 : MonoBehaviour
         {
             Initiate.Fade("GameOver", Color.black, 2.0f);
         }
+
     }
 }

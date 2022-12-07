@@ -25,6 +25,8 @@ public class FoxMovement : MonoBehaviour
     private FoxAnimationController _fac;
 
     public bool CanFollow { get; set; }
+    public bool isStunned;
+    public float stunTimer;
 
     #endregion
 
@@ -35,6 +37,8 @@ public class FoxMovement : MonoBehaviour
         _fac = GetComponentInChildren<FoxAnimationController>();
         
         CanFollow = false;
+        isStunned= false;
+        stunTimer = 3f;
     }
 
     // Update is called once per frame
@@ -47,27 +51,48 @@ public class FoxMovement : MonoBehaviour
 
         if (CanFollow)
         {
-            _fac.IsRunning = foxBehavior.FoxMoving(
-                _ctrl,
-                player.transform,
-                transform,
-                _fac.anim,
-                distance
-            );
+            if (!isStunned) 
+            {
+                _fac.IsRunning = foxBehavior.FoxMoving(
+                    _ctrl,
+                    player.transform,
+                    transform,
+                    _fac.anim,
+                    distance
+                );
 
-            foxBehavior.FoxRotate(
-                player.transform,
-                transform,
-                raycastOrigin.transform
-            );
-            
+                foxBehavior.FoxRotate(
+                    player.transform,
+                    transform,
+                    raycastOrigin.transform
+                );
+            }
+            else
+            {
+                _fac.isStunned = RunStunTimer();
+            }
         }
         else
         {
             CanFollow = distance < foxBehavior.startFollowDistance;
         }
-        
-        
+
+    }
+
+    public bool RunStunTimer()
+    {
+        if (stunTimer > 0)
+        {
+            stunTimer -= Time.deltaTime;
+            return true;
+        }
+        else
+        {
+            stunTimer = 3f;
+            isStunned = false;
+            _fac.isStunned = false;
+            return false;
+        }
     }
 
     //private void CheckNormal()
