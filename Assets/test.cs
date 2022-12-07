@@ -5,13 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class test : MonoBehaviour
 {
-    void OnCollisionEnter(Collision collision)
+    void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        Debug.Log(hit.gameObject.tag);
+        if (hit.gameObject.tag == "Fox")
         {
-            Debug.Log("Collision detected");
-            if(collision.gameObject.tag.Equals("Enemy")) //sees if the object your player collided with has a tag called "Enemy", this can be replaced with if(coll.gameobject.name == ... but using a tag is an easy way to do it.
-            {
-                SceneManager.LoadScene("GameOver");
-                Debug.Log("Working");
-            }
-        } 
+            SceneManager.LoadScene("GameOver");
+        }
+    }
 }
