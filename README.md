@@ -32,7 +32,7 @@ We created a NPC Chase Scene of chicken chase. There is a fox that will chase af
 | Fox | [Pxltiger](https://assetstore.unity.com/packages/3d/characters/animals/toon-fox-183005) |
 | Chicken (player) | [Meshing Studio](https://assetstore.unity.com/packages/3d/characters/animals/meshtint-free-chicken-mega-toon-series-151842)|
 | Chick | [Meshint Studio](https://assetstore.unity.com/packages/3d/characters/animals/meshtint-free-chick-mega-toon-series-152777)|
-| Chick Icon | [Freepik](https://www.flaticon.com/free-icons/easter)|
+| Chick Icon | [Freepik](https://www.flaticon.com/free-icon/chicken_381791)|
 |Terrain | [PolyMount](https://assetstore.unity.com/packages/3d/vegetation/lowpoly-vegetation-season-pack-lite-96083)|
 | Mountains, campfire, boat, and misc nature items | [NeutronCat](https://assetstore.unity.com/packages/3d/environments/landscapes/simple-low-poly-nature-pack-157552)|
 | Trees, rocks, and other misc nature items | [JustCreate](https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153)|
