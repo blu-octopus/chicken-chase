@@ -5,6 +5,7 @@ Final project for CMPM 121 - Game Technologies
 ## Team Members
 
 (in alphabetical order)
+
 Daphne Cheng, Justin Murillo, Jennifer To, and Vivian Zhang 
 
 ## Controls
