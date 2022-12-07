@@ -29,7 +29,14 @@ public class ChickFlock : MonoBehaviour
     [Tooltip("Holds all targets")]
     public List<GameObject> chickTargets;
 
+    private ScoreTracker _scoreTracker;
+
     #endregion
+
+    private void Start()
+    {
+        _scoreTracker = GetComponent<ScoreTracker>();
+    }
 
     private void Update()
     {
@@ -93,7 +100,8 @@ public class ChickFlock : MonoBehaviour
         // Rename target for distinction and add to target list
         newTarget.name = "ChickTarget_" + chickTargets.Count;
 
-        //ResolveSpacing( newTarget );
+        // Increment score
+        _scoreTracker.score++;
 
         chickTargets.Add(newTarget);
 
