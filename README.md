@@ -10,7 +10,7 @@ Daphne Cheng, Justin Murillo, Jennifer To, and Vivian Zhang
 
 ## Controls
 
-Use "WASD" keys on keyboard to move around. Press "SPACE bar" or click to shoot particles.
+Use "WASD" keys on keyboard to move around. Click to shoot.
 
 ## Scene Description
 
@@ -18,13 +18,14 @@ We created a NPC Chase Scene of chicken chase. There is a fox that will chase af
 
 | Requirements| What we did |
 |  ---        |     ----    |
-| Controllable Character (5pts)| The chicken is our controllable character.  |
-| Character-follow camera (5pts) | Player views from a third-person perspective following the chicken. |
-| NPC that notices player (20pts) | Fox NPC that starts chasing after player when player comes within range.       | 
-| Interaction with NPC 1 (10pts) | When the player (big chicken) goes near the little chicks, the little chicks will start following the player.        | 
-| Interaction with NPC 2 (10 pts)| When the fox is caught up to player (fox collides with player), game over scene appears.|
 | Particle system (10 pts)| Gun system where player can point and shoot particles at fox.|
-|Obstacles in the path of player| A farm nature scene containing a variations of terrain, hills, farmland, river, bridge, house, rocks, trees.|
+| 5 unique objects (20 pts)| Check below for Assets Used.|
+| Controllable character (5pts)| The chicken is our controllable character.  |
+| Character-follow camera (5pts) | Player views from a third-person perspective following the chicken. |
+| NPC that chases player (20pts) | Fox NPC that starts chasing after player when player comes within range.       | 
+| Interaction with NPC 1 (10pts) | When the player (big chicken) goes near the little chicks, the little chicks will start following the player.        | 
+| Interaction with NPC 2 (10pts)| When the fox is caught up to player (fox collides with player), game over scene appears.|
+| Obstacles in the path of player| A farm nature scene containing a variations of terrain, hills, farmland, river, bridge, house, rocks, trees.|
 
 ## Assets Used
 At least 5 unique objects of appropriate chosen topic (20pts)
